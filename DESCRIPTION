@@ -1,23 +1,22 @@
 Package: geomROC
 Title: ROC Geometry
-Version: 0.9
+Version: 1.0
 Authors@R: 
     c(
     person("Jing","Zhang",role = c("aut", "cre"),email = "zj391120@163.com"),
     person("Zhi", "Jin", role="aut")
     )
-Description: Tough many packages in CRAN can be used to do ROC anaylysis, 
+Description: Tough many packages in CRAN can be used to do ROC analysis, 
     plot ROC curve. However, it is not easy to set every elements in pictures. 
     Even, it is not user-friendly to plot many curves together.
-    geomROC, based on 'ggplot2' package, served for 'pROC' and 'ROCit' package, 
+    'geomROC', based on 'ggplot2' package, served for 'pROC' and 'ROCit' package, 
     can be used to plot ROC curves and change every elements more easily.
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
 Depends: 
     ROCit,
-    ggplot2,
-    pROC
+    ggplot2
 RoxygenNote: 6.1.1
 URL: https://github.com/yikeshu0611/geomROC
 BugReports: https://github.com/yikeshu0611/geomROC/issues
